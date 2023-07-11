@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: rhods-od-app
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rhods-od-app
+    app.kubernetes.io/part-of: rhods-od-app
+  name: rhods-od-app1cym
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: rhods-od-app
+    weight: null
+status: {}
