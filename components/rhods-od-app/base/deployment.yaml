@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhods-od-app
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads/cchase-tenant/rhods-od-app/rhods-od-app@sha256:108c9fce1500aeb669857edf33c98d893c555696b6df6e470784ba91f1fbc1e6
         name: my-python
         ports:
         - containerPort: 8081
