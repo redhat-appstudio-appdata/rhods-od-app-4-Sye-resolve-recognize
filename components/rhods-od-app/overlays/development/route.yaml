@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rhods-od-app
     app.kubernetes.io/part-of: rhods-od-app
-  name: rhods-od-app1cym
+  name: rhods-od-appbuhd
 spec:
   path: /
   port:
